@@ -1,0 +1,119 @@
+html,body{
+    margin:0;
+    height:100%;
+    overflow:hidden;
+    font-family: Arial,sans-serif;
+}
+
+
+body {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    color:white;
+}
+
+.box{
+    background-color: #161515b4;
+    border-radius: 2%;
+    text-align: left;
+    width: 56%;
+    height: 77%;
+    margin-top: 40px;
+    margin-left: 400px;
+    padding: 40px;
+}
+
+#logo{
+    width: 25%;
+    height: 60%;
+    padding-left: 420px;
+    margin-top: 5%;
+}
+
+h1{
+    color:lime;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(27, 223, 20);
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 4%;
+    margin-right: 6%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.fullwidth{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    left: 0;
+    right: 0;
+
+}
+
+.progress-bar-yellow{
+
+    background-color: rgb(223, 175, 71);
+    height: 27px;
+    width: 250px;
+    padding-right: 100px;
+    margin-left: 126%;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+.progress-bar-red{
+
+    background-color: rgb(194, 68, 68);
+    height: 27px;
+    width: 50px;
+    padding-right: 100px;
+    margin-left: 126%;
+    margin-top: 1px;
+    border-radius: 5px;
+
+}
+
+.progress-bar-green{
+
+    background-color: rgb(0, 197, 0);
+    height: 27px;
+    width: 480px;
+    padding-right: 100px;
+    margin-left: 126%;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+
+.box-m{
+    padding-bottom: 45px;
+    padding-top: 10px;
+    line-height: 170%;
+    margin-left: 4%;
+}
+
+button:hover{
+
+    border-color: black;
+    padding: 4px;
+
+}
+
+.title_monopattino{
+    font-size: 27px;
+    font-weight: 550;
+}
+
+.body_monopattino{
+    font-size: 19px;
+}
+
